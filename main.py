@@ -9,19 +9,19 @@ import requests
 import threading
 
 # bot
-bot_token = os.environ.get("TOKEN", "")
-api_hash = os.environ.get("HASH", "") 
-api_id = os.environ.get("ID", "")
+bot_token = os.environ.get("TOKEN", "5750554601:AAFfE89i7mxLhUDlzBPG-yt_GW72xLTB8Qs")
+api_hash = os.environ.get("HASH", "999242380c2d48a525709e7c835e7095") 
+api_id = os.environ.get("ID", "1179147")
 app = Client("my_bot",api_id=api_id, api_hash=api_hash,bot_token=bot_token)  
 
 # ENVs
-GDTot_Crypt = os.environ.get("CRYPT","b0lDek5LSCt6ZjVRR2EwZnY4T1EvVndqeDRtbCtTWmMwcGNuKy8wYWpDaz0%3D")
-Laravel_Session = os.environ.get("Laravel_Session","")
-XSRF_TOKEN = os.environ.get("XSRF_TOKEN","")
-KCRYPT = os.environ.get("KOLOP_CRYPT","")
-DCRYPT = os.environ.get("DRIVEFIRE_CRYPT","")
-HCRYPT = os.environ.get("HUBDRIVE_CRYPT","")
-KATCRYPT = os.environ.get("KATDRIVE_CRYPT","")
+GDTot_Crypt = os.environ.get("CRYPT","TXUrajVpbmdLL2ZEL1RVdHZQbG8vNUdZdmZNUzNCR2lXRCsrWDlQZ0VKVT0%3D")
+Laravel_Session = os.environ.get("Laravel_Session","eyJpdiI6IkUwSFVaVTlzUm5yUThwajVDYkNkaWc9PSIsInZhbHVlIjoiekRENUpBS1FtaFFwMlVJbDRDNUFNVTBZNjZWV2RDSW9qU2QwRjJVb25IRmpLQzA5QXZ2d2cwWlBkUFwvZXNpOEsiLCJtYWMiOiI0OTNjZGZmMTJmM2U5MTFlMzU3ZGQ2MzRlMWI2YjE3M2IyZDdlNzk1ZTJmMDI4NWRjMzliZDAzYmMxZDhkYjRmIn0%3D")
+XSRF_TOKEN = os.environ.get("XSRF_TOKEN","eyJpdiI6IlJxUVk1YVQ1b0xGMHpcL2I3UVFLTEVRPT0iLCJ2YWx1ZSI6IlZtVmxnc0JqTWhhWUpsZmFUWE15UldjUUF6czlFWllKa2ExbVlpR0t6SDJCU3RRUXdkK0tzTVBWaFRiY0NLbFIiLCJtYWMiOiJlMjE0MmIzOTBmMDY0OGEyOTVmNTY4ZWU0MTk3ZjRjYTQ2ZmQ5Yjg4M2E1NDhlNWVlNjE0ZWIxYmJhYWQzZTcwIn0%3D")
+KCRYPT = os.environ.get("KOLOP_CRYPT","TkNMK3VkY0MyaE1Oc1BhazU1dFQ5Y0loZktQdEovajRReFdzc09uTTRkZz0%3D")
+DCRYPT = os.environ.get("DRIVEFIRE_CRYPT","R2d2aUNuU2Y5MUpoK2dIdlFSZ1VoM1NSQnpkR2cwZFlDYUduY0ZLSVV5RT0%3D")
+HCRYPT = os.environ.get("HUBDRIVE_CRYPT","R2d2aUNuU2Y5MUpoK2dIdlFSZ1VoM1NSQnpkR2cwZFlDYUduY0ZLSVV5RT0%3D")
+KATCRYPT = os.environ.get("KATDRIVE_CRYPT","TkNMK3VkY0MyaE1Oc1BhazU1dFQ5Y0loZktQdEovajRReFdzc09uTTRkZz0%3D")
 
 
 # main thread
